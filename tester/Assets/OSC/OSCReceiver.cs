@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
 
 
 public class OSCReceiver : MonoBehaviour
 {
 
     public OSC osc;
-
+    public GameObject CameraRig;
+    public GameObject cube;
+    
 
     // Use this for initialization
     void Start()
@@ -16,6 +19,9 @@ public class OSCReceiver : MonoBehaviour
         osc.SetAddressHandler("/CubeX", OnReceiveX);
         osc.SetAddressHandler("/CubeY", OnReceiveY);
         osc.SetAddressHandler("/CubeZ", OnReceiveZ);
+        //CameraRig.GetComponent<SteamVR_PlayArea>().GetBounds(SteamVR_PlayArea.Size.Calibrated, ref rect)
+        //Vector3[] vertices = CameraRig.GetComponent<SteamVR_PlayArea>().vertices;
+        //Instantiate(cube, vertices[1], Quaternion.identity);
     }
 
     // Update is called once per frame
@@ -29,7 +35,7 @@ public class OSCReceiver : MonoBehaviour
         float x = message.GetFloat(0);
         float y = message.GetFloat(1);
         float z = message.GetFloat(2);
-
+        
         transform.position = new Vector3(x, y, z);
         Debug.Log(message);
     }
