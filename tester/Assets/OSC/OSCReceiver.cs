@@ -10,11 +10,13 @@ public class OSCReceiver : MonoBehaviour
     public OSC osc;
     public GameObject CameraRig;
     public GameObject cube;
+    public Vector3 originalCam;
     
 
     // Use this for initialization
     void Start()
     {
+        osc = GameObject.Find("OSC").GetComponent<OSC>();
         osc.SetAddressHandler("/CubeXYZ", OnReceiveXYZ);
         osc.SetAddressHandler("/CubeX", OnReceiveX);
         osc.SetAddressHandler("/CubeY", OnReceiveY);
@@ -36,7 +38,7 @@ public class OSCReceiver : MonoBehaviour
         float y = message.GetFloat(1);
         float z = message.GetFloat(2);
         
-        transform.position = new Vector3(x, y, z);
+        transform.position = originalCam + new Vector3(x, y, z);
         Debug.Log(message);
     }
 
@@ -48,7 +50,7 @@ public class OSCReceiver : MonoBehaviour
 
         position.x = x;
 
-        transform.position = position;
+        transform.position = originalCam + position;
         Debug.Log(x);
     }
 
@@ -60,7 +62,7 @@ public class OSCReceiver : MonoBehaviour
 
         position.y = y;
 
-        transform.position = position;
+        transform.position = originalCam + position;
         Debug.Log(y);
     }
 
@@ -72,7 +74,7 @@ public class OSCReceiver : MonoBehaviour
 
         position.z = z;
 
-        transform.position = position;
+        transform.position = originalCam + position;
         Debug.Log(z);
     }
 
