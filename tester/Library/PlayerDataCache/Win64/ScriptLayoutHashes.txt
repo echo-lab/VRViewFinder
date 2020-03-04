@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/creativecomputing2/Documents/GitHub/ImmersiveSketch/tester/Build/tester.exe
+C:/Users/creativecomputing1/Documents/GitHub/ImmersiveSketch/tester/Build/tester.exe
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
@@ -69,10 +69,8 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 f53353aadf7a88ea54da9f1e48a6d181 SteamVR.dll:Valve.VR.SteamVR_LoadLevel
 d3c76b14a25eebd3a3323dd43297919c Unity.TextMeshPro.dll:TMPro.TMP_InputField
-f24f2782e759c62652359f81cbede94f Assembly-CSharp.dll:.drawTrigger
+2de27f369a86db6a975d3ca19e647ad2 Assembly-CSharp.dll:.drawTrigger
 445c4578e5fe3309b82f234574ed26a5 SteamVR.dll:Valve.VR.InteractionSystem.Equippable
-71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
-71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 0a178a1c85198b9dad8fc799b8bfaa65 SteamVR.dll:Valve.VR.InteractionSystem.BodyCollider
 71bb6a6b6c8f052f948db64c7dd3ca4f SteamVR.dll:Valve.VR.SteamVR_CameraMask
 d6361c97f7278bb96d5119a1aa89faeb SteamVR.dll:Valve.VR.SteamVR_Settings
@@ -113,7 +111,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 2e4d26187828ec6fc78fe78f0712f15b SteamVR.dll:Valve.VR.InteractionSystem.Sample.CustomSkeletonHelper
 18628813c7aad3d4328ffde18c4d9d59 SteamVR.dll:Valve.VR.InteractionSystem.Sample.JoeJeffController
 a01f5fdb7bcdde54e45412c1be54d990 SteamVR.dll:Valve.VR.InteractionSystem.UIElement
-82f505bd3576d155877f3a1608905349 Assembly-CSharp.dll:.moveRig
+5fe3e3eeb1ad6f357a65c691a02efd3f Assembly-CSharp.dll:.moveRig
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 780e8f682b3221346c034a6712a0fd25 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
