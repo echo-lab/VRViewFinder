@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/creativecomputing1/Documents/GitHub/ImmersiveSketch/tester/Build/tester.exe
+C:/Users/Song/Documents/immersivesketch/VRViewFinder/tester/Build/tester.exe
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
@@ -154,8 +154,6 @@ cffe519b5f0ea047a807fc185d690c26 SteamVR.dll:Valve.VR.SteamVR_Behaviour_Skeleton
 948fc81d10a0f1ca22569b45a62d3d37 SteamVR.dll:Valve.VR.InteractionSystem.HandCollider
 2963088320fe5fab848e1220974b2a91 Assembly-CSharp.dll:.SpawnCamera
 71bb6a6b6c8f052f948db64c7dd3ca4f SteamVR.dll:Valve.VR.InteractionSystem.Sample.FlowerPlanted
-303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
-7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
 b03d1c51938aa5acf14208025059c8af SteamVR.dll:Valve.VR.InteractionSystem.Sample.LockToPoint
 71bb6a6b6c8f052f948db64c7dd3ca4f SteamVR.dll:Valve.VR.InteractionSystem.Sample.InteractableExample
 e0f1a8d4b95e2893e46f658b3b796847 SteamVR.dll:Valve.VR.SteamVR_Skeleton_Pose
@@ -184,7 +182,6 @@ b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 332290fe3e8a08b4913b85b9ed80c28f SteamVR.dll:Valve.VR.SteamVR_Behaviour_Single
 71bb6a6b6c8f052f948db64c7dd3ca4f SteamVR.dll:Valve.VR.InteractionSystem.IgnoreTeleportTrace
 71bb6a6b6c8f052f948db64c7dd3ca4f SteamVR.dll:Valve.VR.InteractionSystem.Sample.SkeletonUIOptions
-71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 a882b3e3d2273d16832d8de91e5d04d3 Assembly-CSharp.dll:QualisysRealTime.Unity.RTAnalog
 71bb6a6b6c8f052f948db64c7dd3ca4f SteamVR.dll:Valve.VR.InteractionSystem.Sample.ButtonEffect
 2e1375d1548b4268fab18b330f28ddbc SteamVR.dll:Valve.VR.InteractionSystem.Interactable
@@ -308,3 +305,4 @@ afc5b93a7b192de2dcb3832fe35a5c7e Assembly-CSharp.dll:.CameraMove
 b06caeb7f2049d8c14d4f94b7cd0852f Assembly-CSharp.dll:.OSC
 34e7991a9252968fc267ed59fd9d9940 SteamVR.dll:Valve.VR.InteractionSystem.HoverButton
 cdb086d426beb9844923c05cc4a66764 Assembly-CSharp.dll:QualisysRealTime.Unity.RTObjects
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SwitchDeviceNumber
