@@ -12,6 +12,8 @@ public class draw : MonoBehaviour
     public LineRenderer currLine;
     List<Vector3> points;
 
+    public Material color;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,12 @@ public class draw : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            currLine = GetComponent<LineRenderer>();
+            SetMaterial(color);
+        }
+
 
     }
 
@@ -51,5 +59,10 @@ public class draw : MonoBehaviour
 
         currLine.positionCount = points.Count;
         currLine.SetPosition(points.Count - 1, point);
+    }
+
+    public void SetMaterial(Material m)
+    {
+        currLine.GetComponent<Renderer>().material = m;
     }
 }
