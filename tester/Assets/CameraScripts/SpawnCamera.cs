@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnCamera : MonoBehaviour
 {
-    public GameObject Camera;
+    public GameObject CameraPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -16,12 +16,13 @@ public class SpawnCamera : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X))
         {
-            Instantiate(Camera, new Vector3(0, 1, -5), Quaternion.identity);
+            Instantiate(CameraPrefab, new Vector3(0, 1, -5), Quaternion.identity);
             GameObject[] cameras = GameObject.FindGameObjectsWithTag("Camera");
             int len = cameras.Length - 1;
             KeyCode camKeyCode = (KeyCode)System.Enum.Parse(typeof(KeyCode), "Keypad" + len.ToString());
             Debug.Log(camKeyCode);
-            Camera.GetComponent<SwitchCamera>().CameraNumber = camKeyCode;
+            cameras[cameras.Length -1].GetComponent<SwitchCamera>().CameraNumber = camKeyCode;
+            cameras[cameras.Length - 1].GetComponent<Camera>().targetDisplay = len;
         }
     }
 }
